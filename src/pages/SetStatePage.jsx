@@ -66,7 +66,7 @@ export default class SetStatePage extends Component {
         <p>count: {count}</p>
         <button onClick={this.changeCount}>change count 合成事件</button>
         <button onClick={this.changeCountWithCallback}>
-          change count 合成事件 asas with callback
+          change count 合成事件 with callback
         </button>
 
         <button onClick={this.changeCountWithSetTimeout}>
